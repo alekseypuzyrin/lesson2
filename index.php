@@ -36,14 +36,10 @@
 <?php
  $elem1=10;
  $elem2=2;
-     echo "$elem1"+"$elem2";
-     echo "<br>";
-     echo "$elem1"-"$elem2";
-     echo "<br>";
-     echo "$elem1"*"$elem2";
-     echo "<br>";
-     echo "$elem1"/"$elem2";
-     echo "<br>";
+     echo $elem1+$elem2 . "<br>";
+     echo $elem1-$elem2 . "<br>";
+     echo $elem1*$elem2 . "<br>";
+     echo $elem1/$elem2 . "<br>";
 ?>
 <!--zadanie2-->
 
@@ -51,7 +47,7 @@
     $a=25;
     $b=70;
     $c=100;
-    if($a>26 && $a<$b || $a=25 && $c==100 && $b==70 ){
+    if(($a>26 && $a<$b) || $a=25 || $c==100 || $b==70 ){
         echo "OK";
     }
 
